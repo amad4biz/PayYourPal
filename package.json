@@ -1,6 +1,6 @@
 {
-  "name": "paypal",
-  "description": "paypal",
+  "name": "payourpal",
+  "description": "payourpal",
   "version": "0.0.1",
   "dependencies": {
     "express": "3.x",
