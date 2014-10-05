@@ -1,0 +1,36 @@
+@import "_base.scss";
+@import "_colors.scss";
+@import "_forms.scss";
+@import "_menu.scss";
+
+.glyphicon-bullhorn{
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); /* IE 9 */
+    -webkit-transform:rotate(-15deg);
+    top: 5px;
+    right: 10px;
+}
+//alert
+.alert{
+    display: none;
+}
+//overlay styles
+.overlay{
+    background: url('../images/loading.gif') 50% 50% no-repeat #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1000;
+}
+//error styles
+p.error{
+    color: red;
+    margin: 5px;
+    padding: 5px;
+    background: #f2dede;
+    color: #a94442;
+    text-align: center;
+}

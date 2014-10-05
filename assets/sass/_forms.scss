@@ -1,0 +1,25 @@
+/*This contains all the styles related to fonts*/
+
+.form-signin{
+    width: 40%;
+    margin:auto;
+}
+
+.form-control{
+    margin: 5px 0px;
+}
+.transactions{
+    tr{
+        cursor: pointer;
+        td,th{
+            width: 150px;
+        }
+    }
+}
+.mce-path-item{
+    display: none !important;
+}
+.alert{
+    z-index: 1005;
+    display: none;
+}

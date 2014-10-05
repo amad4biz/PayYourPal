@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>PayYourPal</title>
+
+    <!-- Bootstrap core CSS -->
+   <link href="stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href="stylesheets/app.css" rel="stylesheet" media="screen">
+   <link href="scripts/lib/select2/select2.css" rel="stylesheet" media="screen">
+
+  </head>
+    <body>
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#/profile">PayYourPal</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+              <ul class="nav navbar-nav">
+                <li class="sendMoneyNav"><a href="#/sendMoney">Send Money</a></li>
+                <li class="transactionsNav"><a href="#/transactions">Transaction Summary</a></li>
+                <li class="profileNav"><a href="#/profile">Profile</a></li>
+                <li><a href="#" class="logout">Logout</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+    </div>
+    <div class="container app-content marketing">
+        <div class="login">
+
+        </div>
+        <div class="profile">
+           
+        </div>
+        <div class="transactions">
+           
+        </div>
+        <div class="sendMoneyForm">
+           
+        </div>
+    </div>
+
+    <!--Firebase-->
+    <script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
+
+    <!-- CodeMirror -->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.css" --/>
+
+    <!-- Firepad -->
+    <!--link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.0.0/firepad.css" />
+    <script src="scripts/lib/firepad/firepad-min.js"></script-->
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="scripts/lib/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script src="scripts/lib/select2/select2.min.js"></script>
+    <script src="scripts/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="scripts/lib/accounting/accounting.min.js"></script>
+    <!--models-->
+    <script src="scripts/models/userModel.js"></script>
+    <script src="scripts/models/loginModel.js"></script>
+    <script src="scripts/models/transactionModel.js"></script>
+    <script src="scripts/models/sendMoneyFormModel.js"></script>
+    <!--views-->
+    <script src="scripts/views/loginView.js"></script>
+    <script src="scripts/views/loginFailedView.js"></script>
+    <script src="scripts/views/logoutView.js"></script>
+    <script src="scripts/views/profileView.js"></script>
+    <script src="scripts/views/transactionsView.js"></script>
+    <script src="scripts/views/loggedInMenuView.js"></script>
+    <script src="scripts/views/sendMoneyView.js"></script>
+    <script src="scripts/views/notificationView.js"></script>
+    <script src="scripts/views/loadingView.js"></script>
+    <!--routers-->
+    <script src="scripts/routers/routers.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+ <h2>
+    Send Money
+ </h2>
+<div>
+    <form class="form-horizontal" role="form">
+        <div class="form-group ">
+            <label for="inputEmail3" class="col-sm-2 control-label">To *</label>
+            <div class="col-sm-7">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+              <i class="icon pull-right"></i>
+              <span style="display:none"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Amount *</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="amount" placeholder="Amount">
+               <i class="icon pull-right"></i>
+               <span style="display:none"></span>
+            </div>
+            <div class="col-sm-4">
+                <input type="hidden" style="margin-top: 10px" class="pull-left" id="currency" style="width:100px"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Message(Optional)</label>
+            <div class="col-sm-7">
+                <textarea name="content" class="form-control" id="message" style="width:100%"></textarea>
+            </div>
+        </div>
+        <div class="form-group ">
+            <label for="inputEmail3" class="col-sm-2 control-label">What is this payment for?</label>
+            <div class="col-sm-7">
+                <div class="list-group payment-types">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a href="#/profile" class="btn btn-md btn-primary">Back</a>
+                <button type="button" class="btn btn-md btn-primary next">Next</button>
+                <button type="button" class="btn btn-md btn-secondary clear-form">Clear</button>
+            </div>
+        </div>
+    </form> 
+</div>

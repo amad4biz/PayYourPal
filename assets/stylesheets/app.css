@@ -1,0 +1,94 @@
+a:hover {
+  text-decoration: none;
+}
+
+.alert {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+
+/*This contains all the styles related to fonts*/
+.form-signin {
+  width: 40%;
+  margin: auto;
+}
+
+.form-control {
+  margin: 5px 0px;
+}
+
+.transactions tr {
+  cursor: pointer;
+}
+.transactions tr td, .transactions tr th {
+  width: 150px;
+}
+
+.mce-path-item {
+  display: none !important;
+}
+
+.alert {
+  z-index: 1005;
+  display: none;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-wrapper {
+  margin-top: 0px;
+}
+
+.showUserMenu {
+  display: block !important;
+}
+
+.hideUserMenu {
+  display: none !important;
+}
+
+.navbar-collapse {
+  float: right;
+}
+
+.navbar-text {
+  margin-top: 18px;
+}
+
+.glyphicon-bullhorn {
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-15deg);
+  top: 5px;
+  right: 10px;
+}
+
+.alert {
+  display: none;
+}
+
+.overlay {
+  background: url("../images/loading.gif") 50% 50% no-repeat black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+p.error {
+  color: red;
+  margin: 5px;
+  padding: 5px;
+  background: #f2dede;
+  color: #a94442;
+  text-align: center;
+}

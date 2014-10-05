@@ -1,0 +1,11 @@
+Instructions to run the app
+
+1: cd into backbone dir
+2: run node app.js
+3: This will start a server on port 3000
+4: visit http://localhost:3000/ on your browser
+5: Credentials to login 
+   a: Username: nikhil Passoword admin
+   b: Username: joe Passoword adminTest
+   c: Username: john Passoword testAdmin
+6: These are listed in the users.js file
